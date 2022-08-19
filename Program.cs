@@ -34,18 +34,22 @@ if(number1 > number2)
 else
 {
     if(number2 > number1)
-        if (number2 > number3)
+    {
+        if(number2 > number3)
         {
-           Console.WriteLine("max = " + number2); 
+           Console.WriteLine("max = " + number2);
         }
+    }
 }
 else
 {
     if(number3 > number1)
-        if(number3 > number1)
+    {
+        if(number3 > number2)
         {
             Console.WriteLine("max = " + number3);
         }
+    }   
 }
 */
 
